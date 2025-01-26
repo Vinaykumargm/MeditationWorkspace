@@ -1,0 +1,93 @@
+/* .home {
+    text-align: center;
+  }
+  
+  .home .options {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .home .option {
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+  }
+  
+  .home .option img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+  }
+  
+  .home .option p {
+    margin-top: 10px;
+  }
+   */
+   .home {
+    text-align: center;
+  }
+  
+  .home .options {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    gap: 20px; /* Add spacing between items */
+  }
+  
+  .home .option {
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+    flex: 1; /* Flex items to take up equal space */
+    max-width: 200px; /* Limit the width */
+  }
+  
+  .home .option img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+  }
+  
+  .home .option p {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  /* Tablet and smaller devices */
+  @media (max-width: 768px) {
+    .home .options {
+      justify-content: center; /* Center items */
+      gap: 15px; /* Adjust gap for smaller screens */
+    }
+  
+    .home .option img {
+      width: 120px; /* Slightly smaller images */
+      height: 120px;
+    }
+  }
+  
+  /* Mobile devices */
+  @media (max-width: 480px) {
+    .home .options {
+      flex-direction: column; /* Stack items vertically */
+      align-items: center; /* Center align items */
+      gap: 10px; /* Smaller gap for compact layout */
+    }
+  
+    .home .option {
+      max-width: 100%; /* Allow full width for mobile */
+    }
+
+    .home .option img {
+      width: 100px; /* Smaller images for mobile */
+      height: 100px;
+      border-radius: 8px; /* Reduce border-radius */
+    }
+  
+    .home .option p {
+      font-size: 14px; /* Adjust text size */
+    }
+  }
+  

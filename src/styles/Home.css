@@ -1,0 +1,96 @@
+/* .home {
+    text-align: center;
+  }
+  
+  .home .options {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .home .option {
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+  }
+  
+  .home .option img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+  }
+  
+  .home .option p {
+    margin-top: 10px;
+  }
+   */
+
+
+
+
+
+
+
+  .home {
+    text-align: center;
+  }
+  
+  .home .options {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .home .option {
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+  }
+  
+  .home .option img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+  }
+  
+  .home .option p {
+    margin-top: 10px;
+  }
+  
+  /* Media query for tablets */
+  @media (max-width: 768px) {
+    .home .options {
+      flex-direction: column; /* Stack items vertically */
+      align-items: center; /* Center items */
+      gap: 20px; /* Add spacing between items */
+    }
+  
+    .home .option img {
+      width: 120px; /* Slightly smaller images */
+      height: 120px;
+    }
+  }
+  
+  /* Media query for mobile devices */
+  @media (max-width: 480px) {
+    .home .options {
+      flex-direction: column; /* Stack items vertically */
+      align-items: center; /* Center items */
+      gap: 15px; /* Add smaller spacing for tight screens */
+    }
+  
+    .home .option img {
+      width: 100px; /* Further reduce size for smaller screens */
+      height: 100px;
+      border-radius: 8px; /* Slightly smaller border-radius */
+    }
+  
+    .home .option p {
+      font-size: 14px; /* Adjust font size for better readability */
+    }
+  }
+  
