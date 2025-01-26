@@ -2,11 +2,11 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Home from "./Pages/Home";
-import MeditationPage from "./pages/MeditationPage";
-import ResourcesPage from "./pages/ResourcesPage";
-import StaticExperiences from "./pages/StaticExperiences";
-import DynamicExperiences from "./pages/DynamicExperiences";
+import Home from "./Pages/Home"
+import MeditationPage from "./Pages/MeditationPage";
+import ResourcesPage from "./Pages/ResourcesPage";
+import StaticExperiences from "./Pages/StaticExperiences";
+import DynamicExperiences from "./Pages/DynamicExperiences";
 import "./App.css";
 
 const App = () => {
